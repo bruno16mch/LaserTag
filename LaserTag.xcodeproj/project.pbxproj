@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F55164A11E8EEFD1009297B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55164A01E8EEFD1009297B5 /* AppDelegate.swift */; };
+		F55164A31E8EEFD1009297B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55164A21E8EEFD1009297B5 /* ViewController.swift */; };
+		F55164A61E8EEFD1009297B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55164A41E8EEFD1009297B5 /* Main.storyboard */; };
+		F55164A81E8EEFD1009297B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55164A71E8EEFD1009297B5 /* Assets.xcassets */; };
+		F55164AB1E8EEFD1009297B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55164A91E8EEFD1009297B5 /* LaunchScreen.storyboard */; };
+		F55164B61E8EEFD1009297B5 /* LaserTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55164B51E8EEFD1009297B5 /* LaserTagTests.swift */; };
+		F55164C11E8EEFD1009297B5 /* LaserTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55164C01E8EEFD1009297B5 /* LaserTagUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F55164B21E8EEFD1009297B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55164951E8EEFD0009297B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F551649C1E8EEFD0009297B5;
+			remoteInfo = LaserTag;
+		};
+		F55164BD1E8EEFD1009297B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55164951E8EEFD0009297B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F551649C1E8EEFD0009297B5;
+			remoteInfo = LaserTag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F551649D1E8EEFD1009297B5 /* LaserTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaserTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55164A01E8EEFD1009297B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F55164A21E8EEFD1009297B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F55164A51E8EEFD1009297B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F55164A71E8EEFD1009297B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F55164AA1E8EEFD1009297B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F55164AC1E8EEFD1009297B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55164B11E8EEFD1009297B5 /* LaserTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55164B51E8EEFD1009297B5 /* LaserTagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserTagTests.swift; sourceTree = "<group>"; };
+		F55164B71E8EEFD1009297B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55164BC1E8EEFD1009297B5 /* LaserTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55164C01E8EEFD1009297B5 /* LaserTagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserTagUITests.swift; sourceTree = "<group>"; };
+		F55164C21E8EEFD1009297B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F551649A1E8EEFD0009297B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55164AE1E8EEFD1009297B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55164B91E8EEFD1009297B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F55164941E8EEFD0009297B5 = {
+			isa = PBXGroup;
+			children = (
+				F551649F1E8EEFD1009297B5 /* LaserTag */,
+				F55164B41E8EEFD1009297B5 /* LaserTagTests */,
+				F55164BF1E8EEFD1009297B5 /* LaserTagUITests */,
+				F551649E1E8EEFD1009297B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F551649E1E8EEFD1009297B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F551649D1E8EEFD1009297B5 /* LaserTag.app */,
+				F55164B11E8EEFD1009297B5 /* LaserTagTests.xctest */,
+				F55164BC1E8EEFD1009297B5 /* LaserTagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F551649F1E8EEFD1009297B5 /* LaserTag */ = {
+			isa = PBXGroup;
+			children = (
+				F55164A01E8EEFD1009297B5 /* AppDelegate.swift */,
+				F55164A21E8EEFD1009297B5 /* ViewController.swift */,
+				F55164A41E8EEFD1009297B5 /* Main.storyboard */,
+				F55164A71E8EEFD1009297B5 /* Assets.xcassets */,
+				F55164A91E8EEFD1009297B5 /* LaunchScreen.storyboard */,
+				F55164AC1E8EEFD1009297B5 /* Info.plist */,
+			);
+			path = LaserTag;
+			sourceTree = "<group>";
+		};
+		F55164B41E8EEFD1009297B5 /* LaserTagTests */ = {
+			isa = PBXGroup;
+			children = (
+				F55164B51E8EEFD1009297B5 /* LaserTagTests.swift */,
+				F55164B71E8EEFD1009297B5 /* Info.plist */,
+			);
+			path = LaserTagTests;
+			sourceTree = "<group>";
+		};
+		F55164BF1E8EEFD1009297B5 /* LaserTagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F55164C01E8EEFD1009297B5 /* LaserTagUITests.swift */,
+				F55164C21E8EEFD1009297B5 /* Info.plist */,
+			);
+			path = LaserTagUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F551649C1E8EEFD0009297B5 /* LaserTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55164C51E8EEFD1009297B5 /* Build configuration list for PBXNativeTarget "LaserTag" */;
+			buildPhases = (
+				F55164991E8EEFD0009297B5 /* Sources */,
+				F551649A1E8EEFD0009297B5 /* Frameworks */,
+				F551649B1E8EEFD0009297B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaserTag;
+			productName = LaserTag;
+			productReference = F551649D1E8EEFD1009297B5 /* LaserTag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F55164B01E8EEFD1009297B5 /* LaserTagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55164C81E8EEFD1009297B5 /* Build configuration list for PBXNativeTarget "LaserTagTests" */;
+			buildPhases = (
+				F55164AD1E8EEFD1009297B5 /* Sources */,
+				F55164AE1E8EEFD1009297B5 /* Frameworks */,
+				F55164AF1E8EEFD1009297B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55164B31E8EEFD1009297B5 /* PBXTargetDependency */,
+			);
+			name = LaserTagTests;
+			productName = LaserTagTests;
+			productReference = F55164B11E8EEFD1009297B5 /* LaserTagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F55164BB1E8EEFD1009297B5 /* LaserTagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55164CB1E8EEFD1009297B5 /* Build configuration list for PBXNativeTarget "LaserTagUITests" */;
+			buildPhases = (
+				F55164B81E8EEFD1009297B5 /* Sources */,
+				F55164B91E8EEFD1009297B5 /* Frameworks */,
+				F55164BA1E8EEFD1009297B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55164BE1E8EEFD1009297B5 /* PBXTargetDependency */,
+			);
+			name = LaserTagUITests;
+			productName = LaserTagUITests;
+			productReference = F55164BC1E8EEFD1009297B5 /* LaserTagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F55164951E8EEFD0009297B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bruno Rangel";
+				TargetAttributes = {
+					F551649C1E8EEFD0009297B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7M2AFGA6N6;
+						ProvisioningStyle = Automatic;
+					};
+					F55164B01E8EEFD1009297B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7M2AFGA6N6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F551649C1E8EEFD0009297B5;
+					};
+					F55164BB1E8EEFD1009297B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7M2AFGA6N6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F551649C1E8EEFD0009297B5;
+					};
+				};
+			};
+			buildConfigurationList = F55164981E8EEFD0009297B5 /* Build configuration list for PBXProject "LaserTag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F55164941E8EEFD0009297B5;
+			productRefGroup = F551649E1E8EEFD1009297B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F551649C1E8EEFD0009297B5 /* LaserTag */,
+				F55164B01E8EEFD1009297B5 /* LaserTagTests */,
+				F55164BB1E8EEFD1009297B5 /* LaserTagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F551649B1E8EEFD0009297B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55164AB1E8EEFD1009297B5 /* LaunchScreen.storyboard in Resources */,
+				F55164A81E8EEFD1009297B5 /* Assets.xcassets in Resources */,
+				F55164A61E8EEFD1009297B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55164AF1E8EEFD1009297B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55164BA1E8EEFD1009297B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F55164991E8EEFD0009297B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55164A31E8EEFD1009297B5 /* ViewController.swift in Sources */,
+				F55164A11E8EEFD1009297B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55164AD1E8EEFD1009297B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55164B61E8EEFD1009297B5 /* LaserTagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55164B81E8EEFD1009297B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55164C11E8EEFD1009297B5 /* LaserTagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F55164B31E8EEFD1009297B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F551649C1E8EEFD0009297B5 /* LaserTag */;
+			targetProxy = F55164B21E8EEFD1009297B5 /* PBXContainerItemProxy */;
+		};
+		F55164BE1E8EEFD1009297B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F551649C1E8EEFD0009297B5 /* LaserTag */;
+			targetProxy = F55164BD1E8EEFD1009297B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F55164A41E8EEFD1009297B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55164A51E8EEFD1009297B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F55164A91E8EEFD1009297B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55164AA1E8EEFD1009297B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F55164C31E8EEFD1009297B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F55164C41E8EEFD1009297B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F55164C61E8EEFD1009297B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M2AFGA6N6;
+				INFOPLIST_FILE = LaserTag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brunorangel.LaserTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F55164C71E8EEFD1009297B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M2AFGA6N6;
+				INFOPLIST_FILE = LaserTag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brunorangel.LaserTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F55164C91E8EEFD1009297B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7M2AFGA6N6;
+				INFOPLIST_FILE = LaserTagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brunorangel.LaserTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaserTag.app/LaserTag";
+			};
+			name = Debug;
+		};
+		F55164CA1E8EEFD1009297B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7M2AFGA6N6;
+				INFOPLIST_FILE = LaserTagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brunorangel.LaserTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaserTag.app/LaserTag";
+			};
+			name = Release;
+		};
+		F55164CC1E8EEFD1009297B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7M2AFGA6N6;
+				INFOPLIST_FILE = LaserTagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brunorangel.LaserTagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LaserTag;
+			};
+			name = Debug;
+		};
+		F55164CD1E8EEFD1009297B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7M2AFGA6N6;
+				INFOPLIST_FILE = LaserTagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brunorangel.LaserTagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LaserTag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F55164981E8EEFD0009297B5 /* Build configuration list for PBXProject "LaserTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55164C31E8EEFD1009297B5 /* Debug */,
+				F55164C41E8EEFD1009297B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55164C51E8EEFD1009297B5 /* Build configuration list for PBXNativeTarget "LaserTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55164C61E8EEFD1009297B5 /* Debug */,
+				F55164C71E8EEFD1009297B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F55164C81E8EEFD1009297B5 /* Build configuration list for PBXNativeTarget "LaserTagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55164C91E8EEFD1009297B5 /* Debug */,
+				F55164CA1E8EEFD1009297B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F55164CB1E8EEFD1009297B5 /* Build configuration list for PBXNativeTarget "LaserTagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55164CC1E8EEFD1009297B5 /* Debug */,
+				F55164CD1E8EEFD1009297B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F55164951E8EEFD0009297B5 /* Project object */;
+}
