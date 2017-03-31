@@ -14,6 +14,7 @@
 		F55164AB1E8EEFD1009297B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55164A91E8EEFD1009297B5 /* LaunchScreen.storyboard */; };
 		F55164B61E8EEFD1009297B5 /* LaserTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55164B51E8EEFD1009297B5 /* LaserTagTests.swift */; };
 		F55164C11E8EEFD1009297B5 /* LaserTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55164C01E8EEFD1009297B5 /* LaserTagUITests.swift */; };
+		F55164D01E8EEFE6009297B5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55164CF1E8EEFE5009297B5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F55164BC1E8EEFD1009297B5 /* LaserTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55164C01E8EEFD1009297B5 /* LaserTagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserTagUITests.swift; sourceTree = "<group>"; };
 		F55164C21E8EEFD1009297B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55164CF1E8EEFE5009297B5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55164D01E8EEFE6009297B5 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				F55164B41E8EEFD1009297B5 /* LaserTagTests */,
 				F55164BF1E8EEFD1009297B5 /* LaserTagUITests */,
 				F551649E1E8EEFD1009297B5 /* Products */,
+				F55164CE1E8EEFE5009297B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				F55164C21E8EEFD1009297B5 /* Info.plist */,
 			);
 			path = LaserTagUITests;
+			sourceTree = "<group>";
+		};
+		F55164CE1E8EEFE5009297B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F55164CF1E8EEFE5009297B5 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
