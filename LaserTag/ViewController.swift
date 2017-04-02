@@ -15,6 +15,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     //Map
     
     @IBOutlet weak var map: MKMapView!
+    @IBOutlet weak var latitude: UILabel!
+    @IBOutlet weak var longitude: UILabel!
     
     
     let manager = CLLocationManager()
@@ -27,7 +29,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let myLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude)
         let region:MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
         map.setRegion(region, animated: true)
-        
+        latitude.text = String(location.coordinate.latitude)
+        longitude.text = String(location.coordinate.longitude)
         self.map.showsUserLocation = true
     }
     
